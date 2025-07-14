@@ -1,8 +1,12 @@
-import React from "react";
+// src/components/App.js
+import React from 'react';
+import NavBar from './NavBar';
+import Home from './Home';
+import About from './About';
 
 function App() {
   return (
-    <div>
+    <div className="App">
       <NavBar />
       <Home />
       <About />
